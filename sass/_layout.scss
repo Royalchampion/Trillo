@@ -13,6 +13,15 @@
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
+
+    // 1. So the logo, search bar and the notification bar gets aligned horizontally.(Building the header)
+    display: flex;
+
+    // 2. Using this property we align all those three child components together.
+    justify-content: space-between;
+
+    // 3. We align these three child-components on the center position.(Now refer component.scss)
+    align-items: center;
 }
 
 .content {
