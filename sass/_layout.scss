@@ -1,0 +1,38 @@
+.container {
+    // Basic Setup
+    max-width: 128rem;
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+
+    min-height: 50rem;
+}
+
+.header {
+    // Basic Setup
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+    //1. We do set the parent container property i.e. display as flex.
+    display: flex;
+}
+
+.sidebar {
+    // Basic Setup
+    background-color: var(--color-grey-dark-1);
+
+    // 2. We now setup the child flex property.
+    flex: 0 0 18%;
+}
+
+.hotel-view {
+    // Basic Setup
+    background-color: #fff;
+    background-color: orangered;
+
+    // 2. Child flex property.
+    flex: 1;
+}
