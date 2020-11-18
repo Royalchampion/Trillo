@@ -12,7 +12,7 @@
     // Basic Setup
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-grey-light-2);
+    border-bottom: 1px solid var(--color-grey-light-2);
 
     // 1. So the logo, search bar and the notification bar gets aligned horizontally.(Building the header)
     display: flex;
@@ -43,7 +43,6 @@
 .hotel-view {
     // Basic Setup
     background-color: #fff;
-    background-color: orangered;
     height: 80rem;
 
     // 2. Child flex property.
