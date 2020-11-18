@@ -35,12 +35,16 @@
 
     // 2. We now setup the child flex property.
     flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     // Basic Setup
     background-color: #fff;
     background-color: orangered;
+    height: 80rem;
 
     // 2. Child flex property.
     flex: 1;
